@@ -1,0 +1,27 @@
+@font-face {
+    font-family: jetbrains-variable;
+    src: url("../assets/fonts/JetBrainsMono-VariableFont_wght.ttf");
+}
+
+:root {
+    --clr-dark: 248DEG, 100%, 82%; /* #24232C */
+    --clr-gray: 251DEG, 9%, 53%; /* #817D92 */
+    --clr-white: 252DEG, 11%, 91%; /* #E6E5EA */
+    --clr-black: 248DEG, 15%, 11%; /* #18171F */
+    --clr-green: 127DEG, 100%, 82%; /* #A4FFAF */
+    --clr-red: 0DEG, 91%, 63%; /* #F64A4A */
+    --clr-orange: 13DEG, 95%, 66%; /* #FB7C58 */
+    --clr-yellow: 42DEG, 91%, 68%; /* #F8CD65 */
+
+}
+
+*::after, *::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: jetbrains-variable;
+}
+
